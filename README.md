@@ -1,1 +1,2 @@
+Quantitative research/trading · futures & options · systematic strategies
 Independent research on **options market microstructure** — how dealer hedging (gamma / GEX, Vanna, Charm) shapes intraday volatility, and whether those effects survive honest out-of-sample backtests before they become trade setups.
