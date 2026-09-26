@@ -2,7 +2,7 @@
 
 I study **volatility**: how to forecast it, how options price it, and how to tell a real trading edge from an overfit one.
 
-→ **[Website](https://jonaslffr-ship-it.github.io/)** — my research plus seven interactive tools: live SPX volatility from Cboe delayed data, a 3D volatility surface, option greeks, dealer gamma, 0DTE variance, realized vol and a backtest lab
+→ **[Website](https://jonaslffr-ship-it.github.io/)** — my research plus eight interactive tools: live SPX volatility and an ES/NQ implied range from Cboe delayed data, a 3D volatility surface, option greeks, dealer gamma, 0DTE variance, realized vol and a backtest lab
 
 **Research**
 - **Realized-volatility forecasting on the S&P 500** (working paper v1.1; 21 years of 1-minute data) — implied volatility adds forecast information beyond HAR (Clark–West p = 0.019); my best volatility-managed strategy was disqualified by my own pre-registered rules (PBO = 0.84). *Public release in preparation.*
@@ -10,6 +10,7 @@ I study **volatility**: how to forecast it, how options price it, and how to tel
 
 **Interactive tools** (dark-mode web app, everything runs in the browser)
 - **[Live SPX volatility](https://jonaslffr-ship-it.github.io/#live)** — today’s implied-vol surface (SVI per expiry, bid–ask fit quality), model-free implied moves checked against the VIX, dealer-gamma scenarios, moneyness and a history-and-live chart of SPX and the VIX family — rebuilt every 30 minutes from Cboe delayed data by a GitHub Action
+- **[Implied range (ES & NQ)](https://jonaslffr-ship-it.github.io/#range)** — σ-ladder from VIX, VIX1D, VXN or the chain (IV ÷ √252), anchored at the futures’ put–call-parity fair value; five years of how often the levels actually held (ES closed inside the VIX-implied 1σ range on 80 % of days, not 68 %)
 - **[Volatility surface](https://jonaslffr-ship-it.github.io/#surface)** — SSVI in 3D with butterfly/calendar arbitrage checks, Dupire local vol and the implied density
 - **[Options & Greeks](https://jonaslffr-ship-it.github.io/#greeks)** — strategy builder; P&L and 13 greeks to third order as 3D surfaces, each checked live against a finite difference
 - **[Dealer Gamma Lab](https://jonaslffr-ship-it.github.io/#dealer)** — why dealer long gamma dampens moves and short gamma amplifies them: derived, simulated, and explicit about the identification problem
