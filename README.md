@@ -4,6 +4,8 @@ I study **volatility**: how to forecast it, how options price it, and how to tel
 
 → **[Website](https://jonaslffr-ship-it.github.io/)** — my research plus eight interactive tools: live SPX volatility and an ES/NQ implied range from Cboe delayed data, a 3D volatility surface, option greeks, dealer gamma, 0DTE variance, realized vol and a backtest lab
 
+→ **Contact:** [loefflerjonas6@gmail.com](mailto:loefflerjonas6@gmail.com)
+
 **Research**
 - **Realized-volatility forecasting on the S&P 500** (working paper v1.1; 21 years of 1-minute data) — implied volatility adds forecast information beyond HAR (Clark–West p = 0.019); my best volatility-managed strategy was disqualified by my own pre-registered rules (PBO = 0.84). *Public release in preparation.*
 - **Same-day implied variance from 0DTE S&P 500 options, 2018–2026** *(in progress — pre-registration first)* — how much volatility the market prices for a single trading day, and whether that price is fair.
